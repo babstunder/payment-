@@ -220,7 +220,7 @@ font-size: 100%;
     flex:0.85;
 }
 .card{
-    padding-left: 4rem;
+    padding-left: 2rem;
 }
 
     }
