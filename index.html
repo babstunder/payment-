@@ -106,6 +106,9 @@ ins{
     color: black;
     text-decoration: none;
 }
+img{
+    height:25px;
+}
 
 *,
     *::before,
@@ -217,7 +220,7 @@ h3{
 font-size: 100%;    
 }
 .spaces{
-    flex:0.5;
+    flex:0.9;
 }
 .card{
     padding-left: 2rem;
@@ -252,7 +255,7 @@ font-size: 100%;
         <div class="text">
         <ul><h3>Payment for:</h3>
             <li>
-                <ins>Jane Doe</ins><br>laptop purchase
+                <img src="joe.png"><ins>Jane Doe</ins><br>laptop purchase
             </li>
             <li>as a<ins> Loan</ins></li>
             <li>for <ins>6 months</ins></li>
@@ -316,15 +319,7 @@ font-size: 100%;
             </ul>
         </div>
 
-        <div class="footer-top-4">
-            <ul>
-                <li><h1>About us</h1></li>
-                <li><a href="#">Why choose FundMyLaptop</a></li>
-                <li><a href="#">How P2P lending works</a></li>
-                <li><a href="#">About FundMyLaptop</a></li>
-                <li><a href="#">Contact us</a></li>
-            </ul>
-        </div>
+       
     </div>
             
     <hr>
