@@ -217,7 +217,7 @@ h3{
 font-size: 100%;    
 }
 .spaces{
-    flex:0.85;
+    flex:0.5;
 }
 .card{
     padding-left: 2rem;
@@ -285,8 +285,8 @@ font-size: 100%;
             <div class="footer-top-1">
             <ul>
                 <li><h1>FundMy<span class="footer-top-color">Laptop</span></h1></li>
-                <li><p>info@fundmylaptop.com</p></li>
-                <li><p>12345 67890</p></li>
+                <li><p>Our Address</p></li>
+                <li><p>Plot 1415 Adetokunbo Ademola Street PMb 12724, Victoria island.Lagos Nigeria</p></li>
                 <div class="footer-icons">
                     <a href="#"> <img src= "https://res.cloudinary.com/dytnzt4jf/image/upload/v1592431707/Facebook_epztwm.png" alt="facebook icon"></a>
                    <a href="#"> <img src="https://res.cloudinary.com/dytnzt4jf/image/upload/v1592430002/Instagram_rts1mp.png" alt="instagram icon"></a>
@@ -299,11 +299,11 @@ font-size: 100%;
         
         <div class="footer-top-2">
             <ul>
-                <li><h1>Take a loan</h1></li>
-                <li><a href="#">Take a loan</a></li>
-                <li><a href="#">Loan fee & interest rate</a></li>
-                <li><a href="#">Loan EMI Calculator</a></li>
-                <li><a href="#">How to apply for a loan</a></li>
+                <li><h1>Our Contact</h1></li>
+                <li><a href="#">hello.fundmylaptop@Official.com</a></li>
+                <li><a href="#">+234 81 555-0120</a></li>
+                <li><a href="#">+234 81 555-0129</a></li>
+                <li><a href="#">+234 81 555-0121</a></li>
             </ul>
         </div>
 
