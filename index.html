@@ -267,7 +267,8 @@ height: 3px;
     display: flex;
     flex-direction: column;
     margin-left: 0px;
-    align-self:center;     
+    align-self:center; 
+    margin-top: 0px;    
 }
 .card{
     display: flex;
@@ -279,8 +280,14 @@ height: 484px;
 margin-bottom: 4rem;
 align-self: center;
 margin-left: 40px;
+margin-top: 10px;
+}
+.text{
+    padding-top: 2rem;
+    padding-left: 7rem;
 
 }
+
 ins{
     font-weight: bold;
     color:#fB3F5C;}
@@ -324,7 +331,7 @@ height: 48px;
 
 @media screen and (max-width: 850px) {
     #side {
-        height: 20%;
+        height: 30%;
         background: white;
         box-shadow: 0px 4px 11px rgba(150, 150, 150, 0.25);
         position: fixed;
@@ -397,6 +404,8 @@ height: 48px;
     }
     .hamburger{
         outline: none;
+        margin-top: 10px;
+        margin-left: 10px;
 
     }
    
