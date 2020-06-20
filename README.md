@@ -279,12 +279,14 @@ border-radius: 18px;
 height: 484px;
 margin-bottom: 4rem;
 align-self: center;
-margin-left: 40px;
+
 margin-top: 10px;
 }
 .text{
     padding-top: 2rem;
-    padding-left: 7rem;
+    align-items: center;
+    padding-left: 3rem;
+    
 
 }
 
