@@ -19,23 +19,28 @@ html{
     height: 100%
 }
 body{
-  width: 100%;
+  width:100%;
 height: 100vh;
     margin: 0;
     padding:0;
     font-family: DM Sans;
     background: #F0F0F0;
     align-items: center;
+    position: fixed;
+
 }
 .page{
     display: flex;
    
-    margin-left: 10rem;
+    margin-left: 20rem;
     padding-right: 2rem;
+    margin-top: 2rem;
+    
 
 }
 .card{
-    margin-top: 7rem;
+    margin-top: 2rem;
+
 
     
     background: #FFFFFF;
@@ -187,8 +192,9 @@ height: 64px;
     padding-right: 0;
     display: flex;
     padding-right: 10px;
-    margin-left: 40rem;
+    margin-left: 50%;
     padding-bottom: 0px;
+    position: fixed;
 }
 .second_navigation li{
     padding:0 2rem;
@@ -266,18 +272,21 @@ height: 3px;
 .page{
     display: flex;
     flex-direction: column;
-    margin-left: 0px;
+    margin-left: auto;
     align-self:center; 
-    margin-top: 0px;    
+    margin-top: 0px;  
+    margin-right: 8rem;  
 }
 .card{
     display: flex;
 flex-direction: column;
 padding: 50px 15px;
-width: 354px;
+width: 454px;
 border-radius: 18px;
-height: 484px;
+height: 454px;
 margin-bottom: 4rem;
+align-self: center;
+margin-left: 4rem;
 align-self: center;
 
 margin-top: 10px;
@@ -317,7 +326,7 @@ height: 0px;}
 input[type=name],
 input[type=submit]
 {
-    width: 314.72px;
+    width: 432.72px;
 height: 48px;
 }
 .exp{
@@ -437,6 +446,8 @@ height: 48px;
     .page{
     align-items: center;
     display: flex;
+    margin-left: 10px;
+    margin-top: 0px;
     }
     .second_navigation ul{
  list-style: none;
@@ -449,6 +460,72 @@ height: 48px;
 }
 
 }
+@media screen and (max-width: 450px){
+    body{
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 450px){
+.card{
+    margin-left:  0rem;
+    align-self: center;
+    margin-right: 2rem;
+    width: 314px;
+    height: 454px;
+
+}
+.page{
+    margin-left: 3rem;
+}
+body{
+    width: 100%;
+
+    margin-bottom: 2rem;
+    position: relative;
+   
+}
+input[type=name],
+input[type=submit]
+{
+    width: 280.72px;
+height: 48px;
+}
+.exp{
+    width: 89.55px;
+height: 48px;
+}
+}
+@media screen and (max-width: 600px){
+    .card{
+        margin-left: 8rem;
+    }
+}
+@media screen and (max-width: 320px){
+    body{
+        position: relative;
+    }
+    .card{
+        width: 254px;
+    height: 454px;
+
+
+    }
+    
+input[type=name],
+input[type=submit]
+{
+    width: 220.72px;
+height: 48px;
+}
+.page li ,h3,ins{
+    font-size: 120%;
+}
+.page{
+    margin-left: 7rem;
+}
+}
+
 
 
 
