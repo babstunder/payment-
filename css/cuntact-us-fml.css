@@ -283,7 +283,7 @@ color: #FFFFFF;
 }
  
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
 	
 	input[type=name],
 input[type=email],
@@ -332,7 +332,7 @@ block {
 margin-left: 0rem;}
 	
 }
-	media (min-width: 600px) {
+	media (min-width: 800px) {
 	
 	input[type=name],
 input[type=email],
