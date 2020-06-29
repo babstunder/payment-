@@ -288,10 +288,10 @@ color: #FFFFFF;
 	input[type=name],
 input[type=email],
 input[type=text]{
-	width:600px;
+	width:500px;
 }
 textarea{
-	width:600px;}
+	width:500px;}
 input[type=submit]{
 margin-left: 35rem;
 
@@ -332,15 +332,15 @@ block {
 margin-left: 0rem;}
 	
 
-	media (max-width: 650px) {
+	media (min-width: 650px) {
 	
 	input[type=name],
 input[type=email],
 input[type=text]{
-	width:600px;
+	width:700px;
 }
 textarea{
-	width:600px;}
+	width:700px;}
 input[type=submit]{
 margin-left: 35rem;
 
