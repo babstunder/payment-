@@ -257,7 +257,7 @@ textarea{
 	border: 0.763199px solid rgba(4, 23, 42, 0.7);
 box-sizing: border-box;
 border-radius: 3.816px;
-
+margin-top: 10px;
 width:306px;
 color: rgba(4, 23, 42, 0.3);
 padding-left: 10px;
@@ -303,5 +303,6 @@ margin-left: 18.5rem;
 display: flex;
 
 	}
+}
 
 
