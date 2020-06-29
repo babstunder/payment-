@@ -293,7 +293,7 @@ input[type=text]{
 textarea{
 	width:700px;}
 input[type=submit]{
-margin-left: 27rem;
+margin-left: 35rem;
 
 }
 }
@@ -311,7 +311,7 @@ margin-left:0px;
 	right: 140px;
 	}
 }
-@media (max-width: 375px){
+@media (max-width: 300px){
 	input[type=name],
 	input[type=email],
 input[type=text]{
@@ -323,7 +323,13 @@ input[type=submit]{
 margin-left:7.5rem;
 
 }
-}
+
+block {
+	position:relative;
+	right: 100px;
+	}
+	
+	
   
 	
 	
