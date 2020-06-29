@@ -328,6 +328,9 @@ block {
   position:relative;
   right: 80px;
 	}
+	.contained img{
+margin-left: 0rem;}
+	
 }
 	media (min-width: 600px) {
 	
