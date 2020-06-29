@@ -297,6 +297,58 @@ margin-left: 35rem;
 
 }
 }
+input[type=name],
+	input[type=email],
+input[type=text]{
+	width:230px;
+}
+textarea{
+	width:230px;}
+input[type=submit]{
+margin-left:7.5rem;
+@media (max-width: 600px) {
+
+	.contained{
+display: flex;
+margin-left:0px;
+
+
+	}
+	.block {
+	position:relative;
+	right: 140px;
+	}
+}
+@media (max-width:325px){
+	input[type=name],
+	input[type=email],
+input[type=text]{
+	width:230px;
+}
+textarea{
+	width:230px;}
+input[type=submit]{
+margin-left:7.5rem;
+
+}
+
+block {
+  position:relative;
+  right: 80px;
+	}media (min-width: 600px) {
+	
+	input[type=name],
+input[type=email],
+input[type=text]{
+	width:700px;
+}
+textarea{
+	width:700px;}
+input[type=submit]{
+margin-left: 35rem;
+
+}
+}
 
 @media (max-width: 600px) {
 
@@ -311,7 +363,7 @@ margin-left:0px;
 	right: 140px;
 	}
 }
-@media (max-width:275px){
+@media (max-width:325px){
 	input[type=name],
 	input[type=email],
 input[type=text]{
@@ -328,6 +380,7 @@ block {
   position:relative;
   right: 80px;
 	}
+}
 }
 	media (max-width: 450px){
 		
