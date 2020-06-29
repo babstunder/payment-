@@ -297,15 +297,7 @@ margin-left: 35rem;
 
 }
 }
-input[type=name],
-	input[type=email],
-input[type=text]{
-	width:230px;
-}
-textarea{
-	width:230px;}
-input[type=submit]{
-margin-left:7.5rem;
+
 @media (max-width: 600px) {
 
 	.contained{
@@ -334,8 +326,10 @@ margin-left:7.5rem;
 
 block {
   position:relative;
-  right: 80px;
-	}media (min-width: 600px) {
+  right: 100px;
+	}
+}
+	media (min-width: 600px) {
 	
 	input[type=name],
 input[type=email],
@@ -347,39 +341,7 @@ textarea{
 input[type=submit]{
 margin-left: 35rem;
 
-}
-}
 
-@media (max-width: 600px) {
-
-	.contained{
-display: flex;
-margin-left:0px;
-
-
-	}
-	.block {
-	position:relative;
-	right: 140px;
-	}
-}
-@media (max-width:325px){
-	input[type=name],
-	input[type=email],
-input[type=text]{
-	width:230px;
-}
-textarea{
-	width:230px;}
-input[type=submit]{
-margin-left:7.5rem;
-
-}
-
-block {
-  position:relative;
-  right: 80px;
-	}
 }
 }
 	media (max-width: 450px){
@@ -392,7 +354,9 @@ input[type=text]{
 textarea{
 	width:306px;}
 input[type=submit]{
-margin-left:7.5rem;
+margin-left:7.5rem;}
+	
+
 	
   
 	
