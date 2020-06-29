@@ -325,10 +325,21 @@ margin-left:7.5rem;
 }
 
 block {
-	position:relative;
-	right: 100px;
+  position:relative;
+  right: 80px;
 	}
-	
+}
+	media (max-width: 450px){
+		
+		input[type=name],
+	input[type=email],
+input[type=text]{
+	width:306px;
+}
+textarea{
+	width:306px;}
+input[type=submit]{
+margin-left:7.5rem;
 	
   
 	
