@@ -14,7 +14,7 @@ body{
 	align-items: center;
 	flex-direction: column;
 
-padding-top: 2rem;
+padding-top: 3rem;
 
 	
 }
@@ -311,7 +311,7 @@ margin-left: 0px;
 	right: 140px;
 	}
 }
-@media (max-width: 3750px){
+@media (max-width: 375px){
 	input[type=email],
 input[type=text]{
 	width:220px;
