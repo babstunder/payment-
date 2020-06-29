@@ -21,12 +21,12 @@
 <section class="cont">
 <div class="contained">
     
-        <div class="col-sm-2 col-lg-3">
+        <div class="col-sm-2 col-lg-2">
             <img src="img/contact-call.png">
             
 
         </div>
-        <div class="col-sm-10 col-lg-9">
+        <div class="col-sm-10 col-lg-10">
             <div class="block">
             
                 Phone number<ins class="break">(+234) 81 770 47279
@@ -46,7 +46,7 @@
 <div class="contained">
     
         <div class="col-sm-2">
-            <img src="img/contact-call.png">
+            <img src="img/message.jpg">
             
 
         </div>
