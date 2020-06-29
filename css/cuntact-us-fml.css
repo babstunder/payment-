@@ -59,8 +59,8 @@ color: #FFFFFF;
 }
 
 .contain img{
-	background: rgba(251, 63, 92, 0.1);
-	border-radius: 100px;
+	
+	
 width: 20.53px;
 height: 20.53px;
 	
@@ -301,8 +301,13 @@ margin-left: 18.5rem;
 
 	.contained{
 display: flex;
+margin-left: 0px;
+
 
 	}
-}
-
+	.block {
+	position:relative;
+	right: 140px;
+	}
+	
 
