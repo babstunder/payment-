@@ -288,10 +288,10 @@ color: #FFFFFF;
 	input[type=name],
 input[type=email],
 input[type=text]{
-	width:700px;
+	width:600px;
 }
 textarea{
-	width:700px;}
+	width:600px;}
 input[type=submit]{
 margin-left: 35rem;
 
