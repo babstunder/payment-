@@ -14,7 +14,7 @@ body{
 	align-items: center;
 	flex-direction: column;
 
-padding-top: 2rem;
+padding-top: 1.5rem;
 
 	
 }
@@ -302,7 +302,7 @@ margin-right: 1rem;
 
 	.contained{
 display: flex;
-margin-right: 0px;
+margin-right: 29rem;
 
 
 	}
@@ -311,7 +311,7 @@ margin-right: 0px;
 	right: 140px;
 	}
 }
-@media (max-width: 325px){
+@media (max-width: 300px){
 	input[type=name],
 	input[type=email],
 input[type=text]{
