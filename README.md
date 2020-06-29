@@ -1,307 +1,166 @@
-html{
-    height: 100%
-}
-body{
-    height: 100%;
-    margin: 0;
-    padding:0;
-    font-family: 'Dm Sans';
-    margin-right: 0px;
-    background: #E5E5E5;
-} 
-.content{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-padding-top: 1rem;
-
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/cuntact-us-fml.css">
+    <title>Contact &mdash;Us</title>
     
-}
-.contact-banner{
-    background-image: linear-gradient(rgba(4, 23, 42, 0.5),rgba(4, 23, 42, 0.5)), url( ../img/contac-us-banner.png);
-    background-position:center;
-    background-size: cover;
-    height: 143.48px;
+</head>
+<body>
 
+        <header class="contact-banner">
+        <div class="content">
+            <h1> Contact Us</h1>
+            <h2>Feel free to contact Us anytime<br>We will get back<br> to u as soon as possible</h2>
+        </div>
+    </header>
+
+<section class="cont">
+<div class="contained">
     
+        <div class="col-sm-2 col-lg-3">
+            <img src="img/contact-call.png">
+            
 
-}
-.contact-banner .content h1{
-     font-family: DM Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 18.3168px;
-line-height: 24px;
-
-height: 23.66px;
-
-color: #FFFFFF;
-
-}
-.contact-banner .content h2{
-    width: 198.43px;
-height: 45.79px;
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 12.2112px;
-line-height: 15px;
-/* or 125% */
-
-text-align: center;
-
-color: #FFFFFF;
-}
-.cont{
-    margin-top: 3rem;
-
-}
-
-.contain img{
-    background: rgba(251, 63, 92, 0.1);
-    border-radius: 100px;
-width: 20.53px;
-height: 20.53px;
-    
-    margin-top: 0.7rem;
-    margin-left: 1rem;
-    background-position: center;
-    background-size: cover
-}
-.contained img{
-    background: rgba(251, 63, 92, 0.1);
-    border-radius: 100px;
-width: 20.53px;
-height: 20.53px;
-    
-    margin-top: 0.7rem;
-    margin-left: 1rem;
-    background-position: center;
-    background-size: cover
-}
-
-   .contain{
-    
-height: 49.61px;
-background: #FFFFFF;
-box-shadow: 0px 0px 3.0528px rgba(0, 0, 0, 0.25);
-border-radius: 3.816px;
-margin-bottom: 1rem;
-
-    
-        display: flex;
+        </div>
+        <div class="col-sm-10 col-lg-9">
+            <div class="block">
+            
+                Phone number<ins class="break">(+234) 81 770 47279
+            
+        </div>
+            
+        </div>
         
- 
- }
- .contained{
-    
-height: 49.61px;
-background: #FFFFFF;
-box-shadow: 0px 0px 3.0528px rgba(0, 0, 0, 0.25);
-border-radius: 3.816px;
-margin-bottom: 1rem;
 
+
+
+
+
+
+    </div>
+</div>
+<div class="contained">
     
-        display: flex;
+        <div class="col-sm-2">
+            <img src="img/contact-call.png">
+            
+
+        </div>
+        <div class="col-sm-10">
+            <div class="block">
+            
+                Email Address<ins class="break">example@gmail.com
+            
+        </div>
+            
+        </div>
         
- 
- }
- 
-
-
-   }
-
-.contain p{
-    width: 86.24px;
-height: 26.71px;
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 12.2112px;
-line-height: 27px;
-/* identical to box height, or 219% */
-
-text-align: center;
-
-color: #04172A;
-
-}
-.contain a{
-    display: flex;
-
-}
-.contained .break{
-    font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 12.2112px;
-line-height: 27px;
-/* identical to box height, or 219% */
-
-text-align: center;
-
-color: #999898;
-width: 114.48px;
-height: 26.71px;
-text-decoration: none;
-
-}
-.contained .broke{
-width: 179.35px;
-height: 26.71px;
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 12.2112px;
-line-height: 27px;
-/* identical to box height, or 219% */
-
-text-align: center;
-
-color: #999898;
-text-decoration: none;
-}
-.block{
-    display: inline-flex;
-    flex-direction:column;
-    text-align: center;
-    width: 86.24px;
-height: 26.71px;
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 12.2112px;
-line-height: 27px;
-/* identical to box height, or 219% */
-
-text-align: center;
-
-color: #04172A;
-}
-.body{
-    height: 731.91px;
-    background: #FFFFFF;
-box-shadow: 0px 0px 3.0528px rgba(0, 0, 0, 0.25);
-border-radius: 3.816px;
-margin-right: 0px;
-
-}
-.container h3{
-    width: 93.11px;
-height: 26.71px;
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 12.2112px;
-line-height: 27px;
-/* identical to box height, or 219% */
-
-text-align: center;
-
-color: #04172A;
-
-}
-.container .oat{
-    width: 193.09px;
-height: 42.74px;
 
 
 
 
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 12.2112px;
-line-height: 21px;
-/* or 175% */
 
-text-align: center;
 
-color: #999898;
-}
+    </div>
+</div>
 
-.container p{
+<div class="contained">
+    
+        <div class="col-sm-2">
+            <img src="img/contact-2.png">
+            
+
+        </div>
+        <div class="col-sm-10">
+            <div class="block">
+            
+                Location<ins class="broke">Plot 1, Awolowo Way, Ikeja, Lagos
+            
+        </div>
+            
+        </div>
+        
+
+
+
+
+
+
+    </div>
+</div>
+
+
+    <section class="contain">
+
+    
+    <div class="col-sm-3">
+        <a href="#"><img src="img/contact-face.png"></a>
+    </div>
+    <div class="col-sm-3">
+        <a href="#"> <img src="img/contact-3.png"></a>
+    </div>
+    <div class="col-sm-3">
+        <a href="#"><img src="img/contact-twit.png"></a>
+    </div>
+    <div class="col-sm-3">
+        <a href="#"><img src="img/contact-in.png"></a>
+    </div>
+</div>
+</section>
+<div class="container-fluid">
+<section class="body" >
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-12" class="contact-3"><h3>Send a Message</h3></div>
+        <div class="col-sm-12 col-md-12" class="contact-3">
+        <p class="oat">Do you have anything you want to tell us? Get in touch with us today</p></div>
+        
+        <form>
+
+        <div class="col-sm-12 col-md-12" class="contact-3">
+            <p class="oats">Full Name<br>
+            <input type="name" name="name" placeholder="Input full name">
+        </div>
+            <div class="col-sm-12 col-md-12" class="contact-3">
+            <p class="oatss">Email Address<br>
+            <input type="email" name="mail" placeholder="Input email address">
+        </div>
+            <div class="col-sm-12 col-md-12" class="contact-3">
+            <p class="oatsss">Phone Number<br>
+            <input type="text" name="Full" placeholder="Input phone number">
+        </div>
+        <div class="col-sm-12 col-md-12" class="contact-3">
+            <p class="oatssss">Subject<br>
+            <input type="text" name="subject" placeholder="Input subject">
+        </div>
+        <div class="col-sm-12 col-md-12" class="contact-3">
+            <p class="oatsssss">Message<br>
+            <textarea>Input message</textarea>
+        </div>
+        <div class="col-sm-12 col-md-12">
+            
+            <input type="Submit" name="message" value="Send Message"></div>
+        </form>
+
+
+
+
+
+        
+
+
+
+
+    </div>
     
 
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 12.2112px;
-line-height: 16px;
-padding-bottom: 10px;
 
-color: rgba(4, 23, 42, 0.7);
-
-}
-form input{
-    margin-bottom: 1rem;
-}
+</section>
 
 
-input[type=name],
-input[type=email],
-input[type=text]{
-    border: 0.763199px solid rgba(4, 23, 42, 0.7);
-box-sizing: border-box;
-border-radius: 3.816px;
-height:36.63px;
-width:306px;
-padding-left: 10px;
-margin-top: 10px;
-
-
-}
-textarea{
-    height: 170.96px;
-    border: 0.763199px solid rgba(4, 23, 42, 0.7);
-box-sizing: border-box;
-border-radius: 3.816px;
-
-width:306px;
-color: rgba(4, 23, 42, 0.3);
-padding-left: 10px;
-}
-input[type=submit]{
-margin-left: 12.5rem;
-width: 114.48px;
-height: 39.69px;
-background: #FB3F5C;
-box-shadow: 0px 3.0528px 11.448px rgba(251, 63, 92, 0.2);
-border-radius: 3.816px;
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 12.2112px;
-line-height: 16px;
-text-align: center;
-margin-top: 2rem;
-
-color: #FFFFFF;
-
-}
- 
-
-@media (min-width: 600px) {
-    
-    input[type=name],
-input[type=email],
-input[type=text]{
-    width:406px;
-}
-textarea{
-    width:406px;}
-input[type=submit]{
-margin-left: 18.5rem;
-
-}
-}
-
-@media (max-width: 600px) {
-
-    .contained{
-display: flex;
-
-    }
-
-
+</body>
+</html>
