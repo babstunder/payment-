@@ -326,7 +326,7 @@ margin-left:7.5rem;
 
 block {
   position:relative;
-  right: 100px;
+  right: 120px;
 	}
 }
 	media (min-width: 600px) {
@@ -344,7 +344,7 @@ margin-left: 35rem;
 
 }
 }
-	media (max-width: 450px){
+	media (min-width: 400px){
 		
 		input[type=name],
 	input[type=email],
