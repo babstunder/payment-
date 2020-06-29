@@ -288,12 +288,12 @@ color: #FFFFFF;
 	input[type=name],
 input[type=email],
 input[type=text]{
-	width:706px;
+	width:700px;
 }
 textarea{
-	width:706px;}
+	width:700px;}
 input[type=submit]{
-margin-left: 24.5rem;
+margin-left: 27.5rem;
 
 }
 }
@@ -311,5 +311,21 @@ margin-left: 0px;
 	right: 140px;
 	}
 }
+@media (max-width: 400px){
+	input[type=email],
+input[type=text]{
+	width:300px;
+}
+textarea{
+	width:300px;}
+input[type=submit]{
+margin-left:7.5rem;
+
+}
+}
+  
+	
+	
+
 	
 
