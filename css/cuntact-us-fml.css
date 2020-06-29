@@ -283,7 +283,7 @@ color: #FFFFFF;
 }
  
 
-@media (min-width: 800px) {
+@media (min-width: 550px) {
 	
 	input[type=name],
 input[type=email],
@@ -331,8 +331,8 @@ block {
 	.contained img{
 margin-left: 0rem;}
 	
-}
-	media (min-width: 800px) {
+
+	media (min-width: 550px) {
 	
 	input[type=name],
 input[type=email],
