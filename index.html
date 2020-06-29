@@ -46,7 +46,7 @@
 <div class="contained">
     
         <div class="col-sm-2">
-            <img src="img/message.jpg">
+            <img src="img/message.JPG">
             
 
         </div>
