@@ -10,23 +10,23 @@
     
 </head>
 <body>
-    <div class=con>
+
         <header class="contact-banner">
         <div class="content">
             <h1> Contact Us</h1>
             <h2>Feel free to contact Us anytime<br>We will get back<br> to u as soon as possible</h2>
         </div>
     </header>
-</div>
+
 <section class="cont">
-<div class="contain">
-    <div class="row">
-        <div class="col-sm-2">
+<div class="contained">
+    
+        <div class="col-sm-2 col-lg-3">
             <img src="img/contact-call.png">
             
 
         </div>
-        <div class="col-sm-10">
+        <div class="col-sm-10 col-lg-9">
             <div class="block">
             
                 Phone number<ins class="break">(+234) 81 770 47279
@@ -43,8 +43,8 @@
 
     </div>
 </div>
-<div class="contain">
-    <div class="row">
+<div class="contained">
+    
         <div class="col-sm-2">
             <img src="img/contact-call.png">
             
@@ -67,9 +67,9 @@
 
     </div>
 </div>
-</section>
-<div class="contain">
-    <div class="row">
+
+<div class="contained">
+    
         <div class="col-sm-2">
             <img src="img/contact-2.png">
             
@@ -93,22 +93,24 @@
     </div>
 </div>
 
-    <div class="contain">
-    <div class="row">
-    <div class="col-sm-3" class="contact-1">
+
+    <section class="contain">
+
+    
+    <div class="col-sm-3">
         <a href="#"><img src="img/contact-face.png"></a>
     </div>
-    <div class="col-sm-3" class="contact-1">
+    <div class="col-sm-3">
         <a href="#"> <img src="img/contact-3.png"></a>
     </div>
-    <div class="col-sm-3" class="contact-1">
+    <div class="col-sm-3">
         <a href="#"><img src="img/contact-twit.png"></a>
     </div>
-    <div class="col-sm-3" class="contact-1">
+    <div class="col-sm-3">
         <a href="#"><img src="img/contact-in.png"></a>
     </div>
 </div>
-</div>
+</section>
 <div class="container-fluid">
 <section class="body" >
     <div class="container">

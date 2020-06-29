@@ -65,7 +65,18 @@ width: 20.53px;
 height: 20.53px;
 	
 	margin-top: 0.7rem;
-	margin-left: 2rem;
+	margin-left: 1rem;
+	background-position: center;
+	background-size: cover
+}
+.contained img{
+	background: rgba(251, 63, 92, 0.1);
+	border-radius: 100px;
+width: 20.53px;
+height: 20.53px;
+	
+	margin-top: 0.7rem;
+	margin-left: 1rem;
 	background-position: center;
 	background-size: cover
 }
@@ -77,6 +88,27 @@ background: #FFFFFF;
 box-shadow: 0px 0px 3.0528px rgba(0, 0, 0, 0.25);
 border-radius: 3.816px;
 margin-bottom: 1rem;
+
+ 	
+ 		display: flex;
+ 		
+ 
+ }
+ .contained{
+   	
+height: 49.61px;
+background: #FFFFFF;
+box-shadow: 0px 0px 3.0528px rgba(0, 0, 0, 0.25);
+border-radius: 3.816px;
+margin-bottom: 1rem;
+
+ 	
+ 		display: flex;
+ 		
+ 
+ }
+ 
+
 
    }
 
@@ -95,7 +127,11 @@ text-align: center;
 color: #04172A;
 
 }
-.contain .break{
+.contain a{
+	display: flex;
+
+}
+.contained .break{
 	font-family: DM Sans;
 font-style: normal;
 font-weight: normal;
@@ -111,7 +147,7 @@ height: 26.71px;
 text-decoration: none;
 
 }
-.contain .broke{
+.contained .broke{
 width: 179.35px;
 height: 26.71px;
 font-family: DM Sans;
@@ -210,7 +246,7 @@ input[type=text]{
 box-sizing: border-box;
 border-radius: 3.816px;
 height:36.63px;
-width:406px;
+width:306px;
 padding-left: 10px;
 margin-top: 10px;
 
@@ -222,12 +258,12 @@ textarea{
 box-sizing: border-box;
 border-radius: 3.816px;
 
-width:406px;
+width:306px;
 color: rgba(4, 23, 42, 0.3);
 padding-left: 10px;
 }
 input[type=submit]{
-margin-left: 23.5rem;
+margin-left: 12.5rem;
 width: 114.48px;
 height: 39.69px;
 background: #FB3F5C;
@@ -244,3 +280,28 @@ margin-top: 2rem;
 color: #FFFFFF;
 
 }
+ 
+
+@media (min-width: 600px) {
+	
+	input[type=name],
+input[type=email],
+input[type=text]{
+	width:406px;
+}
+textarea{
+	width:406px;}
+input[type=submit]{
+margin-left: 18.5rem;
+
+}
+}
+
+@media (max-width: 600px) {
+
+	.contained{
+display: flex;
+padding-right: 26rem;
+	}
+
+
