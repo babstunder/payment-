@@ -33,6 +33,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 18.3168px;
 line-height: 24px;
+border-bottom:5px solid #FB3F5C;
 
 height: 23.66px;
 
@@ -287,12 +288,12 @@ color: #FFFFFF;
 	input[type=name],
 input[type=email],
 input[type=text]{
-	width:406px;
+	width:706px;
 }
 textarea{
-	width:406px;}
+	width:706px;}
 input[type=submit]{
-margin-left: 18.5rem;
+margin-left: 24.5rem;
 
 }
 }
