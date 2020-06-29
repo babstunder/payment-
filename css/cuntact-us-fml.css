@@ -293,7 +293,7 @@ input[type=text]{
 textarea{
 	width:700px;}
 input[type=submit]{
-margin-left: 27.5rem;
+margin-left: 35.5rem;
 
 }
 }
@@ -314,10 +314,10 @@ margin-left: 0px;
 @media (max-width: 400px){
 	input[type=email],
 input[type=text]{
-	width:300px;
+	width:220px;
 }
 textarea{
-	width:300px;}
+	width:220px;}
 input[type=submit]{
 margin-left:7.5rem;
 
