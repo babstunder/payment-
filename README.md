@@ -346,3 +346,391 @@ height: 48px;
         transition: transform 0.8s ease-out;
     } 
 
+#side.sideactive {
+        transform: translateX(0)
+    }
+
+    #side ul {
+        list-style: none;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;  
+        align-items: center;
+        font-size: 1.0rem;
+        font-weight: 400;
+        padding-top: 10px;
+    } 
+    
+#side li{
+        margin: 0.8rem 0;
+        
+    }
+    
+    #side a{
+        color: black;
+        text-decoration: none;
+    }
+
+    #side .signup_button a{
+        color: white;
+        text-decoration: none;
+    }
+
+    #side a:hover,
+    #side a:active {
+        color:  #fB3F5C;
+    }
+
+    #side .signup_button a:hover,
+    #side .signup_button a:active {
+        color:   white
+    }
+
+    .toolbar_navigation-items {
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        height: 20px;
+        width: 24px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding:0;
+        box-sizing: border-box;
+        z-index:400;
+    }
+    .hamburger{
+        outline: none;
+        margin-top: 10px;
+        margin-left: 10px;
+
+    }
+   
+    
+    .ham_line{
+        width: 24px;
+        height: 4px;
+        background: black;
+
+    }
+    .ham_lines{
+        width: 20px;
+        height: 4px;
+        background: black;
+    }
+    .ham_liness{
+        width: 16px;
+        height: 4px;
+        background: black;
+    }
+    .second-nav{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 1200px){
+    .page{
+    align-items: center;
+    display: flex;
+    }
+    .second_navigation ul{
+ list-style: none;
+    margin: 0;
+    padding-right: 0;
+    display: flex;
+    padding-right: 10px;
+    margin-left: 20rem;
+    padding-bottom: 0px
+}
+
+}
+
+
+
+/* HAMBURGER ANIMATION */
+
+#hamturn div:nth-child(1) {
+    -webkit-animation: outT 0.8s backwards;
+    animation: outT 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+#hamturn div:nth-child(2) {
+    margin: 5px 0;
+    -webkit-animation: outM 0.8s backwards;
+    animation: outM 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+#hamturn div:nth-child(3) {
+    -webkit-animation: outBtm 0.8s backwards;
+    animation: outBtm 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+#hamturn.hamactive div:nth-child(1) {
+    -webkit-animation: inT 0.8s forwards;
+    animation: inT 0.8s forwards;
+}
+
+#hamturn.hamactive div:nth-child(2) {
+    -webkit-animation: inM 0.8s forwards;
+    animation: inM 0.8s forwards;
+}
+
+#hamturn.hamactive div:nth-child(3) {
+    -webkit-animation: inBtm 0.8s forwards;
+    animation: inBtm 0.8s forwards;
+}
+
+@-webkit-keyframes inM {
+    50% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(45deg);
+    }
+}
+
+@keyframes inM {
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@-webkit-keyframes outM {
+    50% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(45deg);
+    }
+}
+
+@keyframes outM {
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@-webkit-keyframes inT {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@keyframes inT {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes outT {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@keyframes outT {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes inBtm {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+@keyframes inBtm {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes outBtm {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+@keyframes outBtm {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+
+*,
+    *::before,
+    *::after{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    footer{
+        background-color:#2A3A64;
+        font-size: 0.75em;
+        font-family: sans-serif;
+    }
+
+    
+    </style>
+</head>
+<body id="body">
+    <header class="toolbar">
+       
+            <button class="hamburger" id="hamturn" onclick="toggle(); backdrop(); hamturn()">
+                <div class="ham_line"></div>
+                <div class="ham_lines"></div>
+                <div class="ham_liness"></div>
+            </button>
+
+
+        </nav>
+
+        <div class="second-nav">
+             <nav class="second_navigation">
+            <div class="spacee"></div>
+            
+                <ul>
+                    <li ><a href="#">Main Page</a></li>
+                    <li><a href="payment-page.html" class="passive-nav">Payment Details</a></li>
+                    <li><a href="#">Confirmation</a></li>
+                    
+                    
+                </ul>
+        </nav>
+    </div>
+    </header>
+    <div id="hidden">
+        <nav id="side">
+            <ul>
+                    <li ><a href="#">Main Page</a></li>
+                    <li><a href="payment-page.html" class="passive-nav">Payment Details</a></li>
+                    <li><a href="#">Confirmation</a></li>
+                    
+                    
+                </ul>
+        </nav>
+    </div>
+    <div class="main-body">
+
+    <div class="page">
+        <div class="text">
+        <ul><h3>Payment for:</h3>
+            <li>
+                <img src="https://res.cloudinary.com/devmajor/image/upload/v1592555207/ellipse_197_k991n6.png"><ins class="JANE">Jane Doe</ins><br>laptop purchase
+            </li>
+            <li>as a<ins> Loan</ins></li>
+            <li>for <ins>6 months</ins></li>
+            <li>at <ins>5% interest rate</ins></li>
+        </ul>
+    </div>
+    <div class="space"></div>
+    <div class="card">
+        <form>
+            <div class="spacer"><label>Cardholder Name:<br> <input type="name" name="name" placeholder="Cardholder Name" required="required"><br></div>
+            <div class="spacer"><label>Cardholder Number<br><input type="name" name="number" placeholder="Cardholder Number" required="required"><br></div>
+                
+        
+            <ul class="main">
+            <li><label>Expiry Date <br><input type="text" name="date" placeholder="MM/YY" class="exp" required="required"></li><br> <div class="spaces"></div>          <li><label>CVV<br><input type="text" name="number" placeholder="CVV" class="exp" required="required"><br></label></li>
+                
+            </ul>
+            <input type="Submit" name="submit" value="Pay #60,000:00">
+
+        </div>
+        
+        </form>
+    </div>
+
+    </div>
+</div>
+    
+</div>
+        
+       
+
+</body>
+<script type="text/javascript">
+    function toggle() {
+    var active = document.getElementById('side')
+    active.classList.toggle('sideactive')
+}
+
+function backdrop() {
+    var backdrop = document.getElementById('body')
+    backdrop.classList.toggle('backdrop')
+}
+
+function hamturn() {
+    var hamturn = document.getElementById('hamturn')
+    hamturn.classList.toggle('hamactive')
+}
+</script>
+</html>
